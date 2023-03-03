@@ -9,7 +9,6 @@
 * GitHub Copilot and ChatGPT are my friends. However, I only meet them and ask them when some functions is too complicated to do.
 * This application is server-side. I'll code a client-side at the same time but I'l store it at a different repository.
 
-=====================================================
 ## Main things:
 * Beautiful splash screen, and of course, J4F and doesn't do anything 🤡
 * Main UI, where I put all things in there, since I don't want to split too much Windows Forms. Too M10 ⚽
@@ -18,6 +17,6 @@
 * Control things... kind of?
 * ... that's it.
 
-=====================================================
-This project is "protected" by GNU license.
+
 # ©️ 2023 - Nguyen Quang Minh. All rights reserved.
+This project is "protected" by GNU license.
