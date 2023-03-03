@@ -1,0 +1,96 @@
+﻿Hey! So you've found my daily diary for this project! Yayyyyy!
+If you found this, it's mean you REALLY care about my project and I'm so happy about that!
+Or you're just a stalker, but I don't care, I'm just happy you're here!
+I will not encrypt this diary like most of the time, because I want you to know what I'm doing, and I want you to know what I'm thinking about this project.
+Welp... I'm gonna start this diary with a "little" introduction about me, so you can know me better.
+
+* My full name is Nguyen Quang Minh, I was born in Hanoi, Vietnam. 
+You can call me Minh, or Alex (my English name), or you can call me whatever you want.
+And if you want to know more about me, you can check my landing website: https://landing.quangminh.name.vn
+
+* Since I was a litte kid (maybe 8, or 9, I don't really remember),	I was always interested in computers, but not coding.
+I just wanted to know how computers work, and how to fix them when they're broken.
+I've built a lot of computers, and I've fixed a lot of computers, and I've broken a lot of computers.
+But I've never coded until I was in the 8th grade.
+I was in a computer class, and we were learning how to code in Pascal.
+Not many school in Vietnam teach coding at secondary school and high school, so I was really lucky to have a computer class.
+But note that not every student in that class was interested in coding, so I was the only one who was coding.
+I was coding a lot of stupid things, and I was really happy of what I've done.
+
+* I've always dreamed of becoming a contestant in the "Road to Mount Olympia" held by Vietnam Television.
+I don't know if you know what that is, but it's a competition for 11th grade students in Vietnam.
+It's just a knowledge competition (gameshow), and I was really interested in it.
+Like, it's the reason why I was studying so hard in the 11th grade so I can become a contestant.
+But... my dream was crushed, and I was not qualified to become a contestant.
+Until now, I still don't know why I was not qualified, but I'm still sad when thinking about it.
+I was really sad, and I was really depressed, and I was really desperate.
+I tried to smile, people still think I'm happy, but I'm not.
+I was really desperate, and I was really sad, and I was really depressed... Again.
+I felt like I was a failure, and I felt like I was a loser.
+I felt like I have no reason to continue. So I tried to give up everything.
+I tried to give up my life, I tried to give up my family, I tried to give up my friends, I tried to give up everything.
+I tried to give up my dream, I tried to give up my passion, I tried to give up my interest.
+
+* But I couldn't do it, I was still alive, and I still have my family, and I still have my friends.
+That's because I met Violet Evergarden.
+It was a rainy day. I take a bus to go to school, but I was bored.
+I skipped the class that day, and I didn't know where to go.
+So I went to the nearest cinema, and I saw Violet Evergarden poster.
+The anime franchise was really popular at that time, so I decided to watch it.
+I was thinking that it was just another anime, but it was not.
+It was a masterpiece, and it was a masterpiece that changed my life.
+I was crying a lot, but not because of sadness, but because of happiness.
+I was crying because I was happy, and I was crying because I was relieved.
+I was crying because I was happy that I was alive, and I was crying because I was relieved that I was alive.
+I was crying because I was happy that I was still alive, and I was crying because I was relieved that I was still alive.
+(I watched it 3 times later that day, and I still watch it on Netflix when I feel sad.)
+
+* University is a different story.
+I was in a university in Hanoi, and I was studying ICT for bachelor degree.
+It's a 3-year degree, and I'm in the 2nd year.
+Turns out, I'm suck at proper coding, but I'm still trying to learn.
+I'm learning C, C++, Java, Python, and I'm trying to learn more.
+But I'm still suck at coding.
+I tried to understand how to code, but it's really hard for me to think big and code big.
+(Code big? I don't know how to explain that, but I hope you understand what I mean.)
+I'm struggle with OOP, Maths (I'm suck at maths), and I'm suck at French.
+
+* I'm also a gamer.
+I don't really play a lot of games. But sometimes, when I feel desperate or sad, I play games to relax.
+I've played a lot of games, but I'm not really good at them. 
+So right now I'm playing CS:GO, Crossfire, UNO!, and Hatsune Miku: Project Diva Mega Mix+.
+I'm also a fan of Hatsune Miku, and I'm a fan of Vocaloid in general.
+Guess what? My Advanced Python teacher was a big game hacker, he and his friends hacked Crossfire VN, and they were really good at it.
+(I'm not a hacker, I'm just a gamer. And poor VTC Game, they're bad at protecting their code.)
+
+* I don't have a girlfriend.
+I'm single, sometimes I'm lonely, but some other times I feel happy with my life (most of the time is lonely).
+So when I sad, I code or playing games.
+If you're interested in me, you can contact me. We can be friends, or we can be more than friends. It's up to you.
+
+Anyway... I'm gonna stop this introduction, and I'm gonna start my diary.
+
+* 2023 - 03 - 03
+Changelog: 
+- Created a new project: Olympia-ServerSide
+- Created a new diary
+
+I have no idea why I decided to re-create this project.
+In the past, I've created a lot of projects like this, but I've never finished any of them.
+The last Olympia project was in 2020 - 2021. 
+COVID-19 and online school really affected my motivation, and I've never finished it.
+Other reason is because I wrote it in Visual Basic. It's easy to code, but it's hard to maintain and not flexible.
+I've decided to re-create this project, and I've decided to write it in C# with some frameworks.
+
+I don't really know what I'm gonna do with this project, but I'm gonna try my best to finish it.
+Right now, I've created 2 Windows Forms (splash screen and main UI), and I think I'l have to create more.
+And I forgot to install Microsoft Office to my computer, so I can't use Microsoft Excel to read data.
+That's why I'm writing this diary, I'm gonna write down my ideas, and I'm gonna write down my progress.
+
+It's been a long time since I've written a diary, and I'm really happy that I'm writing this diary.
+And it's been a long day. I'm gonna go to sleep now. 
+Maybe I'll dream of some ideas for this project, or maybe I'll dream of Violet Evergarden.
+Thank you for reading this diary, and I hope we'll meet again in the future.
+Good night, and sweet dreams.
+
+<!--  END OF DIARY -->

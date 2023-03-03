@@ -27,6 +27,32 @@ namespace OlympiaCSharp
             }
         }
 
+        private void FadeIn()
+        {
+            // Set the initial opacity of the form to 0.0
+            this.Opacity = 0.0;
+
+            // Create a Timer control with a 500 millisecond interval
+            Timer timer = new Timer();
+            timer.Interval = 50;
+
+            // Start the timer and handle its Tick event
+            timer.Start();
+            timer.Tick += (s, args) =>
+            {
+                // Increase the form's opacity by 0.05 until it reaches 1.0
+                if (this.Opacity < 1.0)
+                {
+                    this.Opacity += 0.05;
+                }
+                else
+                {
+                    // Stop the timer when the opacity reaches 1.0
+                    timer.Stop();
+                }
+            };
+        }
+
         public Splash()
         {
             InitializeComponent();
@@ -39,27 +65,21 @@ namespace OlympiaCSharp
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             if (progMain.Width != 0 && progMain.Width < 800)
             {
                 // Increase progMain value
-                progMain.Width = progMain.Width + 2 / 1;
+                progMain.Width = progMain.Width + 3 / 1;
                 // Print progMain value percentage
                 label2.Text = progMain.Width / 8 + "%";
                 // Random character for label
-                Random random = new Random();
                 randomChar.Text = "Đang khởi tạo môi trường...";
-                string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-                randomChar.Text = new string(Enumerable.Repeat(chars, 45).Select(s => s[random.Next(s.Length)]).ToArray());
             }
             else
             {
                 randomChar.Text = "Khởi tạo môi trường thành công!";
                 timer1.Stop();
-                // Pause for 3 second using Async
-                Task.Delay(3000).Wait();
-                // Open Form2.cs
-                Form2 form2 = new Form2();
+                System.Threading.Thread.Sleep(2000);
+                Control form2 = new Control();
                 form2.Show();
                 this.Hide();
             }
@@ -69,5 +89,11 @@ namespace OlympiaCSharp
         {
             CloseApp();
         }
+
+        private void Splash_Load(object sender, EventArgs e)
+        {
+            FadeIn();  
+        }
+
     }
 }

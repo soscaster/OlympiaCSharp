@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
             this.progBG = new System.Windows.Forms.Panel();
             this.progMain = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -140,9 +141,11 @@
             this.Controls.Add(this.progMain);
             this.Controls.Add(this.progBG);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
+            this.Load += new System.EventHandler(this.Splash_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitPic)).EndInit();
             this.ResumeLayout(false);
