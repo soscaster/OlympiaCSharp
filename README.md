@@ -19,4 +19,5 @@
 
 
 # ©️ 2023 - Nguyen Quang Minh. All rights reserved.
-This project is "protected" by GNU license.
+This project is licensed under the
+###### GNU Affero General Public License v3.0
