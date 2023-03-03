@@ -108,5 +108,8 @@
   <ItemGroup>
     <None Include="Resources\maychu.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="mydiary.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
