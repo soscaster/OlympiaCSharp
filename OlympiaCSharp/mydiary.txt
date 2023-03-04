@@ -93,4 +93,25 @@ Maybe I'll dream of some ideas for this project, or maybe I'll dream of Violet E
 Thank you for reading this diary, and I hope we'll meet again in the future.
 Good night, and sweet dreams.
 
+* 2023 - 03 - 04
+Changelog:
+- Support for reading data from Microsoft Excel
+- Custom User Control functionable
+- Support score editing
+
+Heyyyyyyyy! I'm back! Today is Saturday, so I don't have to go to school.
+I've coded not too much today, but I've coded a lot of things about the functions of the project.
+I've created a custom User Control, but did I name it correctly? I just know that I've created a panel, and a lot of User Control Form. 
+And I've created a function to read data from Microsoft Excel.
+DataGridView is really hard to use, but I've managed to use it somehow. But I'm still struggle with reset the data.
+I created a button to reset the data, but it's not working.
+For now, I've deleted the button and create a messagebox to remind me that IT'S NOT FUNCTIONING! I'm gonna fix it later since it's important.
+I've also created a function to edit the score of the contestants. Luckily, it's worked. I mean it's pretty straight-foward to code it, not too complicated.
+Maybe that's it for today, I'm gonna go to sleep now. 
+Tomorrow is Sunday, and I'll have to take a French FR2.1 test. I'm not really good at French, but I'm gonna try my best.
+And I'm gonna try to fix the reset button tomorrow. If it's still not working, I'm gonna ask my teacher for help.
+Or I'll code the server for the project.
+
+Good night, and sweet dreams.
+
 <!--  END OF DIARY -->

@@ -79,7 +79,7 @@ namespace OlympiaCSharp
                 randomChar.Text = "Khởi tạo môi trường thành công!";
                 timer1.Stop();
                 System.Threading.Thread.Sleep(2000);
-                Control form2 = new Control();
+                ControlUI form2 = new ControlUI();
                 form2.Show();
                 this.Hide();
             }

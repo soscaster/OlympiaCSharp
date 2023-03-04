@@ -1,6 +1,6 @@
 ﻿namespace OlympiaCSharp
 {
-    partial class Control
+    partial class ControlUI
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Control));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlUI));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.modelLabel = new System.Windows.Forms.Label();
+            this.versionLabel = new System.Windows.Forms.Label();
+            this.exitUI = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -45,17 +48,23 @@
             this.btnNhapDe = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.readExcel = new Guna.UI2.WinForms.Guna2Button();
-            this.tabControl = new System.Windows.Forms.TabControl();
+            this.UIPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.centreUILogo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.UIPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.centreUILogo)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(29)))), ((int)(((byte)(54)))));
+            this.guna2Panel1.Controls.Add(this.modelLabel);
+            this.guna2Panel1.Controls.Add(this.versionLabel);
+            this.guna2Panel1.Controls.Add(this.exitUI);
             this.guna2Panel1.Controls.Add(this.guna2Separator2);
             this.guna2Panel1.Controls.Add(this.guna2Separator1);
             this.guna2Panel1.Controls.Add(this.guna2TextBox1);
@@ -72,8 +81,41 @@
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(188, 720);
+            this.guna2Panel1.Size = new System.Drawing.Size(187, 720);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // modelLabel
+            // 
+            this.modelLabel.ForeColor = System.Drawing.Color.Gray;
+            this.modelLabel.Location = new System.Drawing.Point(2, 695);
+            this.modelLabel.Name = "modelLabel";
+            this.modelLabel.Size = new System.Drawing.Size(185, 18);
+            this.modelLabel.TabIndex = 11;
+            this.modelLabel.Text = "PHIÊN BẢN THỬ NGHIỆM NỘI BỘ";
+            this.modelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // versionLabel
+            // 
+            this.versionLabel.ForeColor = System.Drawing.Color.Gray;
+            this.versionLabel.Location = new System.Drawing.Point(0, 676);
+            this.versionLabel.Name = "versionLabel";
+            this.versionLabel.Size = new System.Drawing.Size(185, 23);
+            this.versionLabel.TabIndex = 0;
+            this.versionLabel.Text = "Số phiên bản: 0.0.15";
+            this.versionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // exitUI
+            // 
+            this.exitUI.CheckedState.Parent = this.exitUI;
+            this.exitUI.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exitUI.HoverState.Parent = this.exitUI;
+            this.exitUI.Image = global::OlympiaCSharp.Properties.Resources.closeIcon;
+            this.exitUI.Location = new System.Drawing.Point(0, 3);
+            this.exitUI.Name = "exitUI";
+            this.exitUI.PressedState.Parent = this.exitUI;
+            this.exitUI.Size = new System.Drawing.Size(27, 22);
+            this.exitUI.TabIndex = 0;
+            this.exitUI.Click += new System.EventHandler(this.exitUI_Click);
             // 
             // guna2Separator2
             // 
@@ -263,7 +305,7 @@
             this.btnNhapDe.CustomImages.Parent = this.btnNhapDe;
             this.btnNhapDe.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(29)))), ((int)(((byte)(54)))));
             this.btnNhapDe.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(69)))), ((int)(((byte)(110)))));
-            this.btnNhapDe.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhapDe.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapDe.ForeColor = System.Drawing.Color.White;
             this.btnNhapDe.HoverState.Parent = this.btnNhapDe;
             this.btnNhapDe.Image = global::OlympiaCSharp.Properties.Resources.maychu;
@@ -278,11 +320,11 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::OlympiaCSharp.Properties.Resources.VTV_SD;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 20);
+            this.guna2PictureBox1.Image = global::OlympiaCSharp.Properties.Resources.LOGO_NGANG_STROKE_AND_SHADOW;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 15);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(188, 43);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(185, 49);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -291,65 +333,82 @@
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
-            // guna2ControlBox1
+            // UIPanel
             // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(1248, 6);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.Size = new System.Drawing.Size(24, 23);
-            this.guna2ControlBox1.TabIndex = 1;
+            this.UIPanel.Controls.Add(this.label3);
+            this.UIPanel.Controls.Add(this.label2);
+            this.UIPanel.Controls.Add(this.label1);
+            this.UIPanel.Controls.Add(this.centreUILogo);
+            this.UIPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.UIPanel.Location = new System.Drawing.Point(187, 0);
+            this.UIPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.UIPanel.Name = "UIPanel";
+            this.UIPanel.ShadowDecoration.Parent = this.UIPanel;
+            this.UIPanel.Size = new System.Drawing.Size(1093, 720);
+            this.UIPanel.TabIndex = 1;
             // 
-            // openFileDialog1
+            // label3
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(6, 502);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1076, 62);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "PHIÊN BẢN THỬ NGHIỆM NỘI BỘ";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // readExcel
+            // label2
             // 
-            this.readExcel.CheckedState.Parent = this.readExcel;
-            this.readExcel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.readExcel.CustomImages.Parent = this.readExcel;
-            this.readExcel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.readExcel.ForeColor = System.Drawing.Color.White;
-            this.readExcel.HoverState.Parent = this.readExcel;
-            this.readExcel.Location = new System.Drawing.Point(222, 641);
-            this.readExcel.Name = "readExcel";
-            this.readExcel.ShadowDecoration.Parent = this.readExcel;
-            this.readExcel.Size = new System.Drawing.Size(180, 45);
-            this.readExcel.TabIndex = 3;
-            this.readExcel.Text = "ĐỌC FILE ĐỀ THI";
-            this.readExcel.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(6, 456);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1076, 62);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Số phiên bản: 0.0.15";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tabControl
+            // label1
             // 
-            this.tabControl.Location = new System.Drawing.Point(222, 20);
-            this.tabControl.Name = "tabControl";
-            this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(1020, 482);
-            this.tabControl.TabIndex = 4;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(6, 380);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1076, 62);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Phần mềm điều khiển";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Control
+            // centreUILogo
+            // 
+            this.centreUILogo.Image = global::OlympiaCSharp.Properties.Resources.LOGO_NGANG_STROKE_AND_SHADOW;
+            this.centreUILogo.Location = new System.Drawing.Point(6, 123);
+            this.centreUILogo.Name = "centreUILogo";
+            this.centreUILogo.ShadowDecoration.Parent = this.centreUILogo;
+            this.centreUILogo.Size = new System.Drawing.Size(1076, 244);
+            this.centreUILogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.centreUILogo.TabIndex = 12;
+            this.centreUILogo.TabStop = false;
+            // 
+            // ControlUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(69)))), ((int)(((byte)(110)))));
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.tabControl);
-            this.Controls.Add(this.readExcel);
-            this.Controls.Add(this.guna2ControlBox1);
+            this.Controls.Add(this.UIPanel);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Control";
+            this.Name = "ControlUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CONTROL";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.UIPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.centreUILogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -359,7 +418,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2GradientButton btnNhapDe;
         private Guna.UI2.WinForms.Guna2GradientButton btnFin;
@@ -372,8 +430,13 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private Guna.UI2.WinForms.Guna2Button readExcel;
-        private System.Windows.Forms.TabControl tabControl;
+        private Guna.UI2.WinForms.Guna2Panel UIPanel;
+        private Guna.UI2.WinForms.Guna2ImageButton exitUI;
+        private System.Windows.Forms.Label modelLabel;
+        private System.Windows.Forms.Label versionLabel;
+        private Guna.UI2.WinForms.Guna2PictureBox centreUILogo;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -56,6 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CauHoiPhu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CauHoiPhu.Designer.cs">
+      <DependentUpon>CauHoiPhu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiemSo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiemSo.Designer.cs">
+      <DependentUpon>DiemSo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,13 +80,61 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="KhoiDong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KhoiDong.Designer.cs">
+      <DependentUpon>KhoiDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhapDe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NhapDe.Designer.cs">
+      <DependentUpon>NhapDe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Server.Designer.cs">
+      <DependentUpon>Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TangToc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TangToc.Designer.cs">
+      <DependentUpon>TangToc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VCNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VCNV.Designer.cs">
+      <DependentUpon>VCNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VeDich.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VeDich.Designer.cs">
+      <DependentUpon>VeDich.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CauHoiPhu.resx">
+      <DependentUpon>CauHoiPhu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiemSo.resx">
+      <DependentUpon>DiemSo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhoiDong.resx">
+      <DependentUpon>KhoiDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhapDe.resx">
+      <DependentUpon>NhapDe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,6 +146,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Server.resx">
+      <DependentUpon>Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TangToc.resx">
+      <DependentUpon>TangToc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VCNV.resx">
+      <DependentUpon>VCNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VeDich.resx">
+      <DependentUpon>VeDich.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,6 +182,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mydiary.txt" />
+    <None Include="Resources\FRAME_SCORE.png" />
+    <None Include="Resources\BANG_TEN_FREE.jpg" />
+    <None Include="Resources\LOGO NGANG STROKE AND SHADOW.png" />
+    <None Include="Resources\closeIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
